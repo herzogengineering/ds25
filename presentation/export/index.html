@@ -1,0 +1,981 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Developer Summit - VI Skripting - Herzog Engineering</title>
+
+  <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+  <meta name="author" content="Hakim El Hattab">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="libs/reveal.js/4.3.1/reset.css">
+  <link rel="stylesheet" href="libs/reveal.js/4.3.1/reveal.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  <!-- highlight Theme -->
+  
+  <link rel="stylesheet" href="libs/highlight.js/11.3.1/styles/monokai.min.css">
+  
+	
+		
+	<link rel="stylesheet" href="libs/reveal.js/4.3.1/plugin/chalkboard/style.css">
+	
+	
+	
+  <link rel="stylesheet" href="libs/reveal.js/4.3.1/plugin/customcontrols/style.css">
+  
+	
+
+
+
+  <!-- Revealjs Theme -->
+  
+  <link rel="stylesheet" href="libs/reveal.js/4.3.1/theme/white.css" id="theme">
+  
+  
+
+  <link rel="stylesheet" href="libs/styles/tasklist.css">
+	<link rel="stylesheet" href="libs/styles/iota.css">
+	<link rel="stylesheet" href="libs/styles/layout.css">
+
+
+  <!-- Revealjs Theme -->
+  
+  <link rel="stylesheet" href="herzog-engineering.css">
+  
+
+   <!-- css list -->
+	
+
+   
+
+</head>
+
+<body>
+
+   
+
+  <div class="reveal">
+
+    <!-- Any section element inside of this container is displayed as a slide -->
+    <div class="slides">
+
+      
+
+
+    
+        <section >
+            
+            <h1>VI - Skripting</h1>
+<p><br><br>
+<img src="images/logo.png" alt="drawing" width="500"/></p>
+<!-- ---
+
+# 📋
+### Agenda
+
+- Wieso VI-Skripting?
+- Was ist VI-Skriping?
+- Wie geht VI-Skripting?
+- Praxisbeispiel
+   -->
+
+            </section>
+    
+
+
+
+    
+    <section>
+        <section >
+            <h1>Wieso VI-Skripting?</h1>
+
+            </section>
+        
+            <section >
+                <h2>🤖 Automatisierung</h2>
+<h4>FPGA Testpanel</h4>
+<p>Test von Prüfadapter Verdrahtung
+<br>
+Testpanel für 96 FPGA IO’s</p>
+
+            </section>
+        
+            <section >
+                <h2>😬</h2>
+<h2>Fehler vermeiden</h2>
+
+            </section>
+        
+            <section >
+                <h2>🔄</h2>
+<h2>Iterative Entwicklung fördern</h2>
+
+            </section>
+        
+
+    </section>
+    
+
+
+
+    
+    <section>
+        <section >
+            <h3>Was ist VI-Skripting?</h3>
+
+            </section>
+        
+            <section >
+                <h4>Generierung von LabVIEW Code</h4>
+
+            </section>
+        
+            <section >
+                <p>mit LabVIEW!</p>
+
+            </section>
+        
+
+    </section>
+    
+
+
+
+    
+    <section>
+        <section >
+            <h3>Wie geht VI-Skripting?</h3>
+
+            </section>
+        
+            <section >
+                <p>⚡ VI - Scripting aktivieren</p>
+
+            </section>
+        
+            <section >
+                <p><img src="images/tools-options.jpg" alt="alt text"></p>
+
+            </section>
+        
+            <section >
+                <p><img src="images/show-scripting.jpg" alt="Show Scripting"></p>
+
+            </section>
+        
+            <section >
+                <p><img src="images/scripting-pallette.jpg" alt="alt text"></p>
+
+            </section>
+        
+
+    </section>
+    
+
+
+
+    
+    <section>
+        <section >
+            <h3>Beispiel</h3>
+<p><img src="images/simple-sub.jpg" alt=""></p>
+<p>Resultat?</p>
+
+            </section>
+        
+            <section >
+                <p><img src="images/simple-sub-2.jpg" alt=""></p>
+
+            </section>
+        
+            <section >
+                <img src="images/cool.gif" alt="drawing" width="400"/>
+<br>
+Mehr zu VI-Scripting
+<p><a href="https://www.ni.com/docs/en-US/bundle/labview/page/vi-scripting_2.html">https://www.ni.com/docs/en-US/bundle/labview/page/vi-scripting_2.html</a></p>
+
+            </section>
+        
+
+    </section>
+    
+
+
+
+    
+    <section>
+        <section >
+            <h2>Praxis: Messhardware</h2>
+<img src="images/emu.jpg" alt="drawing" width="400"/>
+
+            </section>
+        
+            <section >
+                <h2>Spezifikation Hardware</h2>
+<ul>
+<li>Embedded Linux 🐧</li>
+<li>.NET Framework</li>
+<li>Anzahl Kanäle: 16 <br></li>
+<li>Rate: 1 MS/s (16 Bit) 🔥</li>
+<li>HTTP Interface 🌐</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h2>Interaktion</h2>
+<pre style="all:unset;"><div><img class="mermaid" src="https://kroki.io/mermaid/svg/eNp1jUEOgkAMRfecohfwAixYiCaauCPR9XeoYxOpWIrG2zsZYWGI3fX3vd-BHyNr4I0gGrqC0vQwlyA91OmA83G_PS3yHax9wTgfJmhVVXNcUn3Xi8TRmOorVPk2_EUbT8WNG6MTjRlDcHnC-ffPvCR76ilp_Xb-uhlpeakWH_JySv0=" /></div></pre>
+<img src="images/HTTP_logo.svg.png" alt="drawing" width="100"/>
+
+            </section>
+        
+
+    </section>
+    
+
+
+
+    
+    <section>
+        <section >
+            <h2>HTTP</h2>
+<p>HTTP (Hypertext Transfer Protocol)</p>
+<pre style="all:unset;"><div><img class="mermaid" src="https://kroki.io/mermaid/svg/eNpLy8kvT85ILCpRCHHhUlDwCAkJUNDVtVOIj3d3DYmPRxUK8A9GEwsIDUHmurj6uIa4Iovo6elxAQBPuhjL" /></div></pre>
+<p><a href="https://www.w3schools.com/tags/ref_httpmethods.asp">https://www.w3schools.com/tags/ref_httpmethods.asp</a></p>
+
+            </section>
+        
+            <section >
+                <img src="images/404.png" alt="drawing"/>
+
+            </section>
+        
+            <section >
+                <h2>HTTP in LABVIEW</h2>
+<p><img src="images/labview-http.png" alt="alt text"></p>
+
+            </section>
+        
+            <section >
+                <h2>Wo?</h2>
+<p><img src="images/labview-GET.jpg" alt="alt text"></p>
+
+            </section>
+        
+            <section >
+                <h2>Wie?</h2>
+<p><img src="images/labview-http-example.jpg" alt="alt text"></p>
+<p>TypeDefs, Casting, sauberer Aufbau, OOP</p>
+
+            </section>
+        
+
+    </section>
+    
+
+
+
+    
+    <section>
+        <section >
+            <p><img src="images/OpenAPI_Logo.png" alt="drawing" width="400"/><br>
+<em>OpenAPI ist eine Spezifikation zum Erstellen von APIs, die Entwicklern ermöglicht, die Struktur ihrer APIs in einem standardisierten Format zu definieren.</em>
+<br>
+<a href="https://www.openapis.org/">https://www.openapis.org/</a></p>
+
+            </section>
+        
+            <section >
+                <h3>Beispiel Spezifikation</h3>
+<p>GET Abfrage über Teilnehmer am SLUG25</p>
+<pre><code class="language-json">{
+  &quot;openapi&quot;: &quot;3.0.0&quot;,
+  &quot;info&quot;: {
+    &quot;title&quot;: &quot;SLUG25 API&quot;,
+    &quot;version&quot;: &quot;1.0.0&quot;
+  },
+  &quot;paths&quot;: {
+    &quot;/participants&quot;: {
+      &quot;get&quot;: {
+        &quot;summary&quot;: &quot;Wer ist alles am SLUG25?&quot;,
+        &quot;responses&quot;: {
+          &quot;200&quot;: {
+            &quot;description&quot;: &quot;Eine Liste der Teilnehmer&quot;,
+            &quot;content&quot;: {
+              &quot;application/json&quot;: {
+                &quot;schema&quot;: {
+                  &quot;$ref&quot;: &quot;#/components/schemas/Person&quot;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  &quot;components&quot;: {
+    &quot;schemas&quot;: {
+      &quot;Person&quot;: {
+        &quot;type&quot;: &quot;object&quot;,
+        &quot;properties&quot;: {
+          &quot;Vorname&quot;: {
+            &quot;type&quot;: &quot;string&quot;
+          },
+          &quot;Nachname&quot;: {
+            &quot;type&quot;: &quot;string&quot;
+          },
+          &quot;Firma&quot;: {
+            &quot;type&quot;: &quot;string&quot;
+          },
+          &quot;LabVIEW Experience&quot;: {
+            &quot;type&quot;: &quot;string&quot;
+          }
+        }
+      }
+    }
+  }
+}
+
+</code></pre>
+
+            </section>
+        
+            <section >
+                <h3>Swagger Editor</h3>
+<p><img src="images/swagger-editor.jpg" alt="alt text"></p>
+<p>192.168.33.13:5000/swagger</p>
+
+            </section>
+        
+            <section >
+                <h3>Code Generation</h3>
+<p><img src="images/swagger-editor-generate.jpg" alt="alt text"></p>
+<p>LabVIEW? 😩</p>
+
+            </section>
+        
+            <section >
+                <h2>Moving Target</h2>
+<br>
+<img src="images/moving-target.jpg" alt="drawing" width="600"/>
+
+            </section>
+        
+
+    </section>
+    
+
+
+
+    
+    <section>
+        <section >
+            <h3>Zielarchitektur</h3>
+<pre style="all:unset;"><div><img class="mermaid" src="https://kroki.io/mermaid/svg/eNpLy8kvT85ILCpRCHHhUgACx2iPkJAABef83NzEvJRihZyynMykWAUbXV27GscAzxoFp2iQXGleZnJiSWZ-HlQBWK8TRBnIgBoF52iPxKKU8sSi1FguAJYyIIs=" /></div></pre>
+
+            </section>
+        
+            <section >
+                <h2>Communication</h2>
+<p>HTTP Interaction
+<br>
+<img src="images/labview-http-example.jpg" alt="alt text"></p>
+
+            </section>
+        
+            <section >
+                <h2>HTTP Commands</h2>
+<ul>
+<li>Library mit allen Commands</li>
+<li>OOP</li>
+<li>Factory Class</li>
+</ul>
+
+            </section>
+        
+
+    </section>
+    
+
+
+
+    
+    <section>
+        <section >
+            <h2>Command Generator</h2>
+<pre style="all:unset;"><div><img class="mermaid" src="https://kroki.io/mermaid/svg/eNoljEEOgjAQAO-8Yj-ATzARNMaEWw0cmh62uJSq7ZqlSDR9vATnPDPDk5d-RElwPRawctBqQedIoCOrSN4kBspyn3f3iSOoF3394B-YPMcMla45BIw3OFMkwcRitk21NTgnDqs69SP9DU8yR5eh1g3a9nLqoPFWUD6m-AH4ti_F" /></div></pre>
+
+            </section>
+        
+            <section >
+                <h2>Wunschaufruf</h2>
+<p><img src="images/call-what-i-want.png" alt="alt text"></p>
+<ul>
+<li>Einfügen über QuickDrop (Path Name)</li>
+<li>Korrekte typeDef’s für <em>obtain</em> und <em>read Response</em></li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3>📄 VI-Dokumenation</h3>
+<p><img src="images/context-help.png" alt="alt text">
+<br>
+Von swagger.json übernommen</p>
+
+            </section>
+        
+
+    </section>
+    
+
+
+
+    
+    <section>
+        <section >
+            <h3>🚀 Starten wir!</h3>
+<p><img src="images/cmd-gen-ui.png" alt="alt text"></p>
+<pre style="all:unset;"><div><img class="mermaid" src="https://kroki.io/mermaid/svg/eNoljEEKwjAQAO99xX6gPkGwRUTIyYA9hBw2dZtGTVa2qUXJ4y11zjMzPHnpR5QM6lLBysHoBb0ngY6cJnmTWKjrfdndJ06gX_QNQ3hgDpwKNKblGDHd4ESJBDOL3TbN1uCcOa7q1I_0NwLJnHyB1ih01_OxAxWcoHxs9QP7ri_L" /></div></pre>
+
+            </section>
+        
+            <section >
+                <h3>Blockdiagramm</h3>
+<p><img src="images/cmd-sequence.png" alt="alt text"></p>
+
+            </section>
+        
+
+    </section>
+    
+
+
+
+    
+    <section>
+        <section >
+            <h2>TypeDefs erzeugen</h2>
+<p>von</p>
+<pre><code class="language-json">&quot;MotorState&quot;: {
+        &quot;type&quot;: &quot;object&quot;,
+        &quot;properties&quot;: {
+          &quot;version&quot;: {
+            &quot;type&quot;: &quot;string&quot;,
+            &quot;nullable&quot;: true
+          },
+          &quot;actualMode&quot;: {
+            &quot;$ref&quot;: &quot;#/components/schemas/McRunMode&quot;
+          },
+          &quot;controlRegister&quot;: {
+            &quot;type&quot;: &quot;array&quot;,
+            &quot;items&quot;: {
+              &quot;$ref&quot;: &quot;#/components/schemas/McControlRegister&quot;
+            },
+            &quot;nullable&quot;: true
+          },
+          &quot;firmwareStates&quot;: {
+            &quot;$ref&quot;: &quot;#/components/schemas/McFirmwareStates&quot;
+          }
+        },
+        &quot;additionalProperties&quot;: false
+      },
+&quot;McRunMode&quot;: {
+        &quot;enum&quot;: [
+          &quot;Config&quot;,
+          &quot;Manual&quot;,
+          &quot;EcIe&quot;,
+          &quot;DC&quot;,
+          &quot;EcHs&quot;,
+          &quot;EcSl&quot;,
+          &quot;Error&quot;
+        ],
+        &quot;type&quot;: &quot;string&quot;
+      },
+&quot;McControlRegister&quot;: {
+        &quot;enum&quot;: [
+          &quot;None&quot;,
+          &quot;MotorEnabled&quot;,
+          &quot;DirectionCcw&quot;,
+          &quot;DirectionCw&quot;,
+          &quot;ChangingWorkingPoint&quot;,
+          &quot;MotorBrake&quot;,
+          &quot;Busy&quot;,
+          &quot;Error&quot;
+        ],
+        &quot;type&quot;: &quot;string&quot;
+      },
+&quot;McFirmwareStates&quot;: {
+        &quot;enum&quot;: [
+          &quot;Booted&quot;,
+          &quot;NotConfigured&quot;,
+          &quot;ManualDisable&quot;,
+          &quot;ManualEnable&quot;,
+          &quot;EcIeDisable&quot;,
+          &quot;EcIeEnable&quot;,
+          &quot;EcIeChangeWorkingPoint&quot;,
+          &quot;DcDisable&quot;,
+          &quot;DcRunning&quot;,
+          &quot;DcDischargePs&quot;,
+          &quot;DcBraked&quot;,
+          &quot;DcChangeWorkingPoint&quot;,
+          &quot;EcHsDisabled&quot;,
+          &quot;EcHsDischargePs&quot;,
+          &quot;EcHsRunning&quot;,
+          &quot;EcHsBraked&quot;,
+          &quot;EcHsSync&quot;,
+          &quot;EcHsChangeWorkingPoint&quot;,
+          &quot;EcSlDisabled&quot;,
+          &quot;EcSlStartup&quot;,
+          &quot;EcSlRunning&quot;,
+          &quot;EcSlBraked&quot;,
+          &quot;EcSlSync&quot;,
+          &quot;EcSlChangeWorkingPoint&quot;,
+          &quot;EcSlDischargePs&quot;,
+          &quot;ErrorThermalShutdwon&quot;,
+          &quot;ErrorOverCurrent&quot;,
+          &quot;ErrorInvalidHall&quot;,
+          &quot;ErrorInvalidBemf&quot;,
+          &quot;ErrorHallTimeout&quot;,
+          &quot;ErrorBemfTimeout&quot;,
+          &quot;ErrorSensorless&quot;
+        ],
+        &quot;type&quot;: &quot;string&quot;
+      }
+</code></pre>
+<p>zu</p>
+
+            </section>
+        
+            <section >
+                <p><img src="images/typeDef-motor-state.png" alt="alt text"></p>
+
+            </section>
+        
+            <section >
+                <h3>TypeDefs Code 1/3</h3>
+<p><img src="images/build-cluster-1.png" alt="alt text"></p>
+
+            </section>
+        
+            <section >
+                <h3>TypeDefs Code 2/3</h3>
+<p><img src="images/build-cluster-2.png" alt="alt text"></p>
+
+            </section>
+        
+            <section >
+                <h3>TypeDefs Code 3/3</h3>
+<p><img src="images/build-cluster-3-recursive.png" alt="alt text"></p>
+
+            </section>
+        
+
+    </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>Kommando-Typen</h2>
+<p>Erzeugen des richtigen CMD Types mit passendem Template.</p>
+<p><img src="images/hierarchy-cmd-gen.png" alt="alt text"></p>
+
+            </section>
+    
+
+
+
+    
+    <section>
+        <section >
+            <h3>Anpassen der Controls/Indicators</h3>
+<p>Ersetzen von Request und Response Datentypen</p>
+<p><img src="images/controls-indicators.png" alt="alt text"></p>
+
+            </section>
+        
+            <section >
+                <h2>Payload ersetzen</h2>
+<p>Ersetzen eines Clusters</p>
+<p><img src="images/control-replace.png" alt="alt text"></p>
+
+            </section>
+        
+
+    </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>Hinzufügen der Kommentare</h2>
+<p>Die Kommentare “Description” sowie “Summary” sollen im VI ersichtlich sein.</p>
+<p><img src="images/add-documentation.png" alt="alt text"></p>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <h2>Alle Schritte</h2>
+<p><img src="images/cmd-full-sequence.png" alt="alt text"></p>
+
+            </section>
+    
+
+
+
+    
+    <section>
+        <section >
+            <h2>Ergebnis</h2>
+<p><img src="images/cmd-gen-ui-done.png" alt="alt text"></p>
+
+            </section>
+        
+            <section >
+                <h2>Ergebnis</h2>
+<p><img src="images/cmd-gen-lib.png" alt="alt text">
+<br>
+⏳ Dauer für 100 Kommandos: 7min
+<br>
+🧪VI - Analyzer “proofed”
+<br>
+♻ CI/CD mit Jenkins</p>
+
+            </section>
+        
+
+    </section>
+    
+
+
+
+    
+    <section>
+        <section >
+            <h2>📕Packed Lib in Package</h2>
+<p><img src="images/package.jpg" alt="alt text"></p>
+<ul>
+<li>Spezifikation in Library Dokumentation</li>
+<li>Libraries sind .xml Files</li>
+<li>Diff wird “schön”</li>
+</ul>
+
+            </section>
+        
+            <section >
+                <h3>Lib Doc</h3>
+<p><img src="images/libdoc.jpg" alt="alt text"></p>
+
+            </section>
+        
+
+    </section>
+    
+
+
+
+    
+        <section >
+            
+            <h3>Fazit</h3>
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <img src="images/logo.png" alt="drawing" width="500"/>
+<br>
+<br>
+<img src="images/CLA.png" alt="drawing" height="100" style="margin: 40px;">
+<img src="images/ni_partner_badge.png" alt="drawing" height="100"style="margin: 40px;">
+<img src="images/workers.png" alt="drawing" height="100"style="margin: 40px;">
+
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <img src="images/refco.gif" alt="drawing" style="margin: 40px;">
+            </section>
+    
+
+
+    </div>
+
+
+  </div>
+
+  <div class="line top"></div>
+  <div class="line bottom"></div>
+  <div class="line left"></div>
+  <div class="line right"></div>
+
+  <script src="libs/reveal.js/4.3.1/reveal.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/notes/notes.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/markdown/markdown.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/highlight/highlight.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/math/math.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/fullscreen/plugin.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/animate/plugin.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/animate/svg.min.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/plugin.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/Chart.min.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/d3/d3.v3.min.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/d3.patch.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/d3/queue.v1.min.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/d3/topojson.v1.min.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/anything/function-plot.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/customcontrols/plugin.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/embed-tweet/plugin.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/chart/chart.min.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/chart/plugin.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/verticator/verticator.js"></script>
+
+<script src="libs/reveal.js/4.3.1/plugin/zoom/zoom.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/search/search.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/menu/menu.js"></script>
+<script src="libs/reveal.js/4.3.1/plugin/chalkboard/plugin.js"></script>
+
+<!--	<script src="libs/reveal.js/4.3.1/plugin/audio-slideshow/plugin.js"></script>  -->
+<!--	<script src="libs/reveal.js/4.3.1/plugin/audio-slideshow/recorder.js"></script>-->
+<!--	<script src="libs/reveal.js/4.3.1/plugin/audio-slideshow/RecordRTC.js"></script>-->
+
+  
+
+<script>
+  const printPlugins = [
+      RevealNotes,
+      RevealHighlight,
+      RevealMath.MathJax3,
+      RevealAnimate,
+      RevealChalkboard, 
+			RevealEmbedTweet,
+			RevealChart,
+		];
+
+		const plugins =  [...printPlugins,
+		RevealZoom, 
+		RevealSearch, 
+				RevealMarkdown, 
+				RevealMenu, 
+				RevealFullscreen,
+				RevealAnything,
+				//RevealAudioSlideshow,
+				//RevealAudioRecorder,
+				RevealCustomControls, 
+				// poll
+				// question
+				// seminar
+				Verticator 
+				 ]
+
+
+		// Also available as an ES module, see:
+		// https://revealjs.com/initialization/
+		Reveal.initialize({
+			controls: true,
+      controlsTutorial: true,
+      controlsLayout: 'bottom-right',
+      controlsBackArrows: 'faded',
+      progress: true,
+      slideNumber: true,
+      //#showSlideNumber "all" "print" "speaker"
+      hash: true, //# hash: false,
+      //# respondToHashChanges: true,
+      //# history: false,
+      keyboard: true,
+      //#keyboardCondition: null,
+      overview: true,
+      center: true,
+      touch: true,
+      loop: false,
+      rtl: false,
+      //#navigationMode: 'default', linear grid
+      shuffle: false,
+      fragments: true,
+      fragmentInURL: false,
+      embedded: false,
+      help: true,
+      //#pause: true
+      showNotes: false,
+      autoPlayMedia: false, // TODO fix this to a nullable value
+      //#preloadIframes: null. true false
+      //#autoAnimate: true
+      //#autoAnimateMatcher: null,
+      //#autoAnimateEasing: 'ease',
+      //autoAnimateDuration: 1.0,
+      //#autoAnimateUnmatched: true
+      //#autoAnimateStyles: []
+      autoSlide: 0, // TODO fix this to a falseable value
+      autoSlideStoppable: true,
+      autoSlideMethod: '0',
+      defaultTiming: 120,
+      mouseWheel: false,
+      //#previewLinks: false
+      //#postMessage: true, // TODO : this can cause issues with the vscode api ???
+      //#postMessageEvents: false,
+      //#focusBodyOnPageVisibilityChange: true,
+      transition: 'slide',
+      transitionSpeed: 'default',
+      backgroundTransition: 'fade',
+      //#pdfMaxPagesPerSlide: Number.POSITIVE_INFINITY,
+      //#pdfSeparateFragments: true,
+      //#pdfPageHeightOffset: -1,
+      viewDistance: 3,
+      //#mobileViewDistance: 2,
+      display: 'block',
+      //#hideInactiveCursor: true,
+      //#hideCursorTime: 5000
+
+      // Parallax Background
+      parallaxBackgroundImage: '',
+      parallaxBackgroundSize: '',
+      parallaxBackgroundHorizontal: 0,
+      parallaxBackgroundVertical: 0,
+
+      //Presentation Size
+      width: 960,
+			height: 700,
+			margin: 0.04,
+      minScale: 0.2,
+      maxScale: 2,
+      disableLayout: false,
+
+      audio: {
+        prefix: 'audio/', // audio files are stored in the "audio" folder
+        suffix: '.ogg', // audio files have the ".ogg" ending
+        textToSpeechURL: null, // the URL to the text to speech converter
+        defaultNotes: false, // use slide notes as default for the text to speech converter
+        defaultText: false, // use slide text as default for the text to speech converter
+        advance: 0, // advance to next slide after given time in milliseconds after audio has played, use negative value to not advance
+        autoplay: false, // automatically start slideshow
+        defaultDuration: 5, // default duration in seconds if no audio is available
+        defaultAudios: true, // try to play audios with names such as audio/1.2.ogg
+        playerOpacity: 0.05, // opacity value of audio player if unfocused
+        playerStyle: 'position: fixed; bottom: 4px; left: 25%; width: 50%; height:75px; z-index: 33;', // style used for container of audio controls
+        startAtFragment: false, // when moving to a slide, start at the current fragment or at the start of the slide
+      },
+      
+      chalkboard: { // font-awesome.min.css must be available
+        //src: "chalkboard/chalkboard.json",
+        storage: "chalkboard-demo",
+      },
+      
+			customcontrols: {
+					controls: [
+      						{
+						  id: 'toggle-overview',
+						  title: 'Toggle overview (O)',
+						  icon: '<i class="fa fa-th"></i>',
+						  action: 'Reveal.toggleOverview();'
+						}
+						,
+      {
+        icon: '<i class="fa fa-pen-square"></i>',
+        title: 'Toggle chalkboard (B)',
+        action: 'RevealChalkboard.toggleChalkboard();'
+      },
+      {
+        icon: '<i class="fa fa-pen"></i>',
+        title: 'Toggle notes canvas (C)',
+        action: 'RevealChalkboard.toggleNotesCanvas();'
+      }
+      
+				]
+			},
+			chart: {
+					defaults: { 
+						color: 'lightgray', // color of labels
+						scale: { 
+							beginAtZero: true, 
+							ticks: { stepSize: 1 },
+							grid: { color: "lightgray" } , // color of grid lines
+						},
+					},
+					line: { borderColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ], "borderDash": [ [5,10], [0,0] ] }, 
+					bar: { backgroundColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ]}, 
+					pie: { backgroundColor: [ ["rgba(0,0,0,.8)" , "rgba(220,20,20,.8)", "rgba(20,220,20,.8)", "rgba(220,220,20,.8)", "rgba(20,20,220,.8)"] ]},
+					radar: { borderColor: [ "rgba(20,220,220,.8)" , "rgba(220,120,120,.8)", "rgba(20,120,220,.8)" ]}, 
+			},
+			math: {
+				mathjax: 'https://cdn.jsdelivr.net/gh/mathjax/mathjax@2.7.8/MathJax.js',
+				config: 'TeX-AMS_HTML-full',
+				// pass other options into `MathJax.Hub.Config()`
+				TeX: { Macros: { RR: "{\\bf R}" } }
+				},
+				anything: [ 
+				{
+		className: "plot",
+		defaults: {width:500, height: 500, grid:true},
+		initialize: (function(container, options){ options.target = "#"+container.id; functionPlot(options) })
+	 },
+	 {
+		className: "chart",  
+		initialize: (function(container, options){ container.chart = new Chart(container.getContext("2d"), options);  })
+	 },
+	 {
+		className: "anything",
+		initialize: (function(container, options){ if (options && options.initialize) { options.initialize(container)} })
+	 },
+					],
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: (window.location.search.match(/print-pdf/gi) ? printPlugins : plugins ) 
+		});
+			
+
+
+	    // Change chalkboard theme : 
+		function changeTheme(input) {
+			var config = {};
+			config.theme = input.value;
+			Reveal.getPlugin("RevealChalkboard").configure(config);
+			input.blur();
+		}
+
+		// // Handle the message inside the webview
+        // window.addEventListener('message', event => {
+
+        //     const message = event.data; // The JSON data our extension sent
+
+        //     switch (message.command) {
+        //         case 'refactor':
+        //             Reveal.toggleHelp();
+        //     }
+        // });
+
+		if (window.location.search.match(/print-pdf-now/gi)) {
+      		setTimeout(() => {
+				window.print();
+			  }, 2500);
+			
+    }
+</script>
+
+</body>
+
+</html>
