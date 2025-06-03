@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="47173e25-0e47-4597-be0e-84b9c8c010bf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/fonts/source-sans-pro/source-sans-pro.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/herzog-engineering.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/404.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/CLA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/HTTP_logo.svg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/OpenAPI_Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/add-documentation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/build-cluster-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/build-cluster-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/build-cluster-3-recursive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/call-what-i-want.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cmd-full-sequence.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cmd-gen-lib.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cmd-gen-ui-done.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cmd-gen-ui.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cmd-sequence.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/context-help.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/control-replace.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/controls-indicators.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cool.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/emu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hierarchy-cmd-gen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/labview-GET.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/labview-http-example.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/labview-http.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/libdoc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/moving-target.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ni_partner_badge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/package.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/refco.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/scripting-pallette.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/show-scripting.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/simple-sub-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/simple-sub.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/swagger-editor-generate.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/swagger-editor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/tools-options.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/typeDef-motor-state.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/workers.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/highlight.js/11.3.1/styles/monokai.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/reveal.js/4.3.1/plugin/animate/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/reveal.js/4.3.1/plugin/animate/svg.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/reveal.js/4.3.1/plugin/anything/Chart.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/reveal.js/4.3.1/plugin/anything/d3.patch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/reveal.js/4.3.1/plugin/anything/d3/d3.v3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/reveal.js/4.3.1/plugin/anything/d3/queue.v1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/reveal.js/4.3.1/plugin/anything/d3/topojson.v1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/reveal.js/4.3.1/plugin/anything/function-plot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/reveal.js/4.3.1/plugin/anything/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/reveal.js/4.3.1/plugin/chalkboard/img/blackboard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/reveal.js/4.3.1/plugin/chalkboard/img/boardmarker-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/reveal.js/4.3.1/plugin/chalkboard/img/chalk-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/reveal.js/4.3.1/plugin/chalkboard/img/sponge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/reveal.js/4.3.1/plugin/chalkboard/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/reveal.js/4.3.1/plugin/chalkboard/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/reveal.js/4.3.1/plugin/chart/chart.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/reveal.js/4.3.1/plugin/chart/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/reveal.js/4.3.1/plugin/customcontrols/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/reveal.js/4.3.1/plugin/customcontrols/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/reveal.js/4.3.1/plugin/embed-tweet/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/reveal.js/4.3.1/plugin/fullscreen/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/reveal.js/4.3.1/plugin/highlight/highlight.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/reveal.js/4.3.1/plugin/markdown/markdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/reveal.js/4.3.1/plugin/math/math.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/reveal.js/4.3.1/plugin/menu/font-awesome/css/all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/reveal.js/4.3.1/plugin/menu/font-awesome/webfonts/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/reveal.js/4.3.1/plugin/menu/font-awesome/webfonts/fa-solid-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/reveal.js/4.3.1/plugin/menu/menu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/reveal.js/4.3.1/plugin/menu/menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/reveal.js/4.3.1/plugin/notes/notes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/reveal.js/4.3.1/plugin/search/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/reveal.js/4.3.1/plugin/verticator/verticator.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/reveal.js/4.3.1/plugin/verticator/verticator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/reveal.js/4.3.1/plugin/zoom/zoom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/reveal.js/4.3.1/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/reveal.js/4.3.1/reveal.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/reveal.js/4.3.1/reveal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/reveal.js/4.3.1/theme/fonts/source-sans-pro/source-sans-pro-italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/reveal.js/4.3.1/theme/fonts/source-sans-pro/source-sans-pro-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/reveal.js/4.3.1/theme/fonts/source-sans-pro/source-sans-pro.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/reveal.js/4.3.1/theme/white.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/styles/iota.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/styles/layout.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/styles/tasklist.css" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2wXrUI8NAvsD6uJYmpekF4z0fT8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "presentation",
+    "last_opened_file_path": "C:/_Repo/ds25",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-PY-243.23654.177" />
+        <option value="bundled-python-sdk-91d3a02ef49d-43b77aa2d136-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.23654.177" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="47173e25-0e47-4597-be0e-84b9c8c010bf" name="Changes" comment="" />
+      <created>1746198776727</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1746198776727</updated>
+      <workItem from="1746198779150" duration="96000" />
+      <workItem from="1748934781414" duration="912000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
